@@ -1,3 +1,5 @@
+#Results for various models
+
 Result for basline_model.py(multilayer perception model)
 
 ```shell
@@ -54,4 +56,33 @@ Epoch 9/10
 Epoch 10/10
  - 62s - loss: 0.0141 - acc: 0.9959 - val_loss: 0.0337 - val_acc: 0.9892
 CNN Error: 1.08%
+```
+
+Results for large_cnn.py(A larger two layer convolution neural network model)
+
+```shell
+Using TensorFlow backend.
+        2019-05-18 14:07:16.504181: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/10
+60000/60000 [==============================] - 59s 980us/step - loss: 0.3868 - acc: 0.8821 - val_loss: 0.0867 - val_acc: 0.9723
+Epoch 2/10
+60000/60000 [==============================] - 58s 968us/step - loss: 0.0996 - acc: 0.9701 - val_loss: 0.0570 - val_acc: 0.9819
+Epoch 3/10
+60000/60000 [==============================] - 58s 967us/step - loss: 0.0730 - acc: 0.9774 - val_loss: 0.0418 - val_acc: 0.9864
+Epoch 4/10
+60000/60000 [==============================] - 58s 969us/step - loss: 0.0598 - acc: 0.9818 - val_loss: 0.0389 - val_acc: 0.9868
+Epoch 5/10
+60000/60000 [==============================] - 58s 969us/step - loss: 0.0509 - acc: 0.9842 - val_loss: 0.0343 - val_acc: 0.9894
+Epoch 6/10
+60000/60000 [==============================] - 58s 967us/step - loss: 0.0442 - acc: 0.9861 - val_loss: 0.0295 - val_acc: 0.9901
+Epoch 7/10
+60000/60000 [==============================] - 58s 968us/step - loss: 0.0387 - acc: 0.9879 - val_loss: 0.0288 - val_acc: 0.9901
+Epoch 8/10
+60000/60000 [==============================] - 58s 968us/step - loss: 0.0352 - acc: 0.9887 - val_loss: 0.0261 - val_acc: 0.9909
+Epoch 9/10
+60000/60000 [==============================] - 58s 967us/step - loss: 0.0315 - acc: 0.9901 - val_loss: 0.0228 - val_acc: 0.9924
+Epoch 10/10
+60000/60000 [==============================] - 58s 969us/step - loss: 0.0300 - acc: 0.9904 - val_loss: 0.0257 - val_acc: 0.9917
+Large CNN Error: 0.83%
 ```
